@@ -13,4 +13,4 @@ If all goes well, you should end up with a freshly-cooked recovery.img in `/out/
 * Mount points are flat-out wrong, but that's the least of our worries.
 
 ## Downloads
-There aren't any public releases
+There aren't any public releases atm due to the aforementioned issues. But yeah this repo's too good to pass up in case I need to send the sources for others to peek into and improve upon.
