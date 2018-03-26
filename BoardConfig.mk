@@ -15,8 +15,19 @@ TW_NO_EXFAT := true
 TWHAVE_SELINUX := true
 #TW_USE_TOOLBOX := true
 TW_NO_EXFAT_FUSE := true
-TW_THEME := portrait_mdpi
+TW_THEME := landscape_mdpi
 #RECOVERY_SDCARD_ON_DATA := true
+# Max brightness to prevent display damage
+TW_MAX_BRIGHTNESS := 160
+# Default brightness for TWRP
+TW_DEFAULT_BRIGHTNESS := 120
+TW_INCLUDE_FB2PNG := true
+TWRP_INCLUDE_LOGCAT := true
+#DEVICE_RESOLUTION := 1024x600
+RECOVERY_TOUCHSCREEN_SWAP_XY := true
+#RECOVERY_TOUCHSCREEN_FLIP_X := true
+RECOVERY_TOUCHSCREEN_FLIP_Y := true
+TWRP_EVENT_LOGGING := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/mt_usb/gadget/lun%d/file"
 BOARD_CUSTOM_BOOTIMG_MK := device/Mattel/NabiSE/boot.mk
