@@ -10,7 +10,7 @@ If all goes well, you should end up with a freshly-cooked recovery.img in `/out/
 
 ## Issues/Caveats
 * Screen orientation is in portrait, yet the touchscreen insists otherwise for whatever reason. Any suggestions on getting this sorted out would be highly appreciated.
-* Mount points are flat-out wrong, but that's the least of our worries.
+* Encryption is enabled by default on this tablet, and as such you may have to wipe data due to password issues. Looking into forcibly disabling it through Magisk or something. :/
 
 ## Downloads
 There aren't any public releases atm due to the aforementioned issues. But yeah this repo's too good to pass up in case I need to send the sources for others to peek into and improve upon.
