@@ -24,15 +24,16 @@ TW_MAX_BRIGHTNESS := 160
 TW_DEFAULT_BRIGHTNESS := 120
 TW_INCLUDE_FB2PNG := true
 TWRP_INCLUDE_LOGCAT := true
-DEVICE_RESOLUTION := 600x1024
-#RECOVERY_TOUCHSCREEN_SWAP_XY := true
-#RECOVERY_TOUCHSCREEN_FLIP_X := true
-#RECOVERY_TOUCHSCREEN_FLIP_Y := true
-TWRP_EVENT_LOGGING := true
+DEVICE_RESOLUTION := 1024x600
+
+#Workaround for flipped touch input. May need to clean out folder for it to take effect on compile time
+RECOVERY_TOUCHSCREEN_SWAP_XY := true
+RECOVERY_TOUCHSCREEN_FLIP_Y := true
+
 #The SE comes with encryption permanently enabled by default.
-#Perhaps patching the kernel to defeat forced decrypt would do the trick
+#Perhaps patching the kernel to defeat forced encryption would do the trick
 #Problem is whilst Magisk has that ability, it is seemingly unable to edit boot.img for whatever reason
-#Magisk Manager churns out an apparently corrupted image
+#Magisk Manager churns out an apparently corrupted image; may have to report it for a definite fix
 TW_INCLUDE_CRYPTO := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/mt_usb/gadget/lun%d/file"
