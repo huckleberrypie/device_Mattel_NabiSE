@@ -1,6 +1,16 @@
 # device_Mattel_NabiSE
 
-TWRP port for the Nabi SE tablet (and related variants e.g. American Girl, Barbie and Hot Wheels; the Fisher-Price Learning Tablet runs off an MT8163 SoC and is somewhat unrelated; shouldn't be hard to port it though but I don't have that one atm).
+Basic   | Spec Sheet
+-------:|:-------------------------
+CPU     | 1.3GHz Quad-Core MT8127
+GPU     | Mali-450MP
+Memory  | 1GB RAM
+Shipped Android Version | 6.0
+Storage | 16GB
+Display | 7" 1024 x 600 px
+Camera  | 2MPx rear, 0.3MPx front
+
+Device tree for the Nabi SE tablet (and related variants e.g. American Girl, Barbie and Hot Wheels; the Fisher-Price Learning Tablet runs off an MT8163 SoC and is somewhat unrelated; shouldn't be hard to port it though but I don't have that one atm).
 
 To build from source, clone this repo or download this branch as a ZIP, then follow the TWRP guide at http://forum.xda-developers.com/showthread.php?t=1943625
 
