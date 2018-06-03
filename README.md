@@ -1,4 +1,5 @@
 # device_Mattel_NabiSE
+## American Girl edition
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -9,6 +10,8 @@ Shipped Android Version | 6.0
 Storage | 16GB
 Display | 7" 1024 x 600 px
 Camera  | 2MPx rear, 0.3MPx front
+
+[Imgur](https://i.imgur.com/Tg7iPWq.png =450x450)
 
 Device tree for the Nabi SE tablet (and related variants e.g. American Girl, Barbie and Hot Wheels; the Fisher-Price Learning Tablet runs off an MT8163 SoC and is somewhat unrelated; shouldn't be hard to port it though but I don't have that one atm).
 
@@ -23,8 +26,7 @@ If all goes well, you should end up with a freshly-cooked recovery.img in `/out/
 * Encryption is enabled by default on this tablet, and as such you may have to wipe data due to password issues. Looking into forcibly disabling it through Magisk or something. :/
 
 ## Todo
-* Versions for other variants i.e. the aforementioned licenced character releases.
-* And whilst I'm at it, themes to go with each character. Sure is surreal to see a Barbie-themed TWRP, eh? :P
+* Edited PNG files needs optimisation. Dunno how the TWRP team were able to pull that off without ending up being mangled.
 
 ## Downloads
 You may download the initial recovery releases for the vanilla SE here: https://github.com/huckleberrypie/device_Mattel_NabiSE/releases
