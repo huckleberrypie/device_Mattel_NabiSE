@@ -14,7 +14,7 @@ Device tree for the Nabi SE tablet (and related variants e.g. American Girl, Bar
 
 To build from source, clone this repo or download this branch as a ZIP, then follow the TWRP guide at http://forum.xda-developers.com/showthread.php?t=1943625
 
-Go to your source folder, e.g. `/home/[username]/omni`, then `/device/Mattel/NabiSE`, key in `source ./build/envsetup.sh`, then `lunch omni_nabiSE-eng` then `make clean && make -j# recoveryimage`, replacing `-j#` with either `j3` or `j5` depending on your processor. On a dual core, you should use `j3`.
+Go to your source folder, e.g. `/home/[username]/omni`, key in `source ./build/envsetup.sh`, then `lunch omni_nabiSE-eng` then `make clean && make -j# recoveryimage`, replacing `-j#` with either `j3` or `j5` depending on your processor. On a dual core, you should use `j3`.
 
 If all goes well, you should end up with a freshly-cooked recovery.img in `/out/product/Mattel/NabiSE`. You may now flash it to your device using SP Flash Tool v5.1532 or through fastboot. I dunno if it's necessary to unlock the bootloader but it shouldn't hurt to try.
 

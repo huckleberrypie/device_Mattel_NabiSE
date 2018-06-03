@@ -17,7 +17,7 @@ TWHAVE_SELINUX := true
 #TW_USE_TOOLBOX := true
 TW_NO_EXFAT_FUSE := true
 TW_THEME := portrait_mdpi
-#RECOVERY_SDCARD_ON_DATA := true
+RECOVERY_SDCARD_ON_DATA := true
 # Max brightness to prevent display damage
 TW_MAX_BRIGHTNESS := 160
 # Default brightness for TWRP
@@ -25,6 +25,8 @@ TW_DEFAULT_BRIGHTNESS := 120
 TW_INCLUDE_FB2PNG := true
 TWRP_INCLUDE_LOGCAT := true
 DEVICE_RESOLUTION := 1024x600
+#Themes and whatnot
+TW_CUSTOM_THEME := device/Mattel/NabiSE/res
 
 #Workaround for flipped touch input. May need to clean out folder for it to take effect on compile time
 RECOVERY_TOUCHSCREEN_SWAP_XY := true
